@@ -2,7 +2,8 @@ import {createGlobalStyle} from 'styled-components';
 export default createGlobalStyle`
 
     :root {
-      --bg-blue: #0173b2;
+      --bg-blue: #e6ebf2;
+
       --logo-height: 100px;
       --header-height: 100px;
       --aside-width: 225px;
