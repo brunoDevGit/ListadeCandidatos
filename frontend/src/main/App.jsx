@@ -1,18 +1,20 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'font-awesome/css/font-awesome.min.css'
 import React from 'react'
-
 import Logo from '../components/Logo'
 import Main from '../components/Main'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
-import { Container } from '../components/Main/styles'
 
+import Styles from './GlobalStyles'
 
 export default props =>
-   <Container>
+   <>
       <div className="app">
          <Logo />
          <Menu />
          <Main />
          <Footer />
       </div>
-   </Container>
+      <Styles/>
+  </>
